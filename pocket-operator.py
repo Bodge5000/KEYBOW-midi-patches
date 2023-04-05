@@ -15,7 +15,6 @@ midi = adafruit_midi.MIDI(midi_out=usb_midi.ports[1], out_channel=0)
 
 rgb = (255, 0, 0)
 rgb_off = (25, 25, 25)
-start_note = 45
 velocity = 127
 
 note_map = [
