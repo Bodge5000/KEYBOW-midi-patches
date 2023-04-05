@@ -3,11 +3,10 @@
 # 4 banks of chords, major, minor, 7th and sus4
 ###
 
-from pmk import PMK
-from pmk.platform.keybow2040 import Keybow2040 as Hardware
-
 import usb_midi
 import adafruit_midi
+from pmk import PMK
+from pmk.platform.keybow2040 import Keybow2040 as Hardware
 from adafruit_midi.note_off import NoteOff
 from adafruit_midi.note_on import NoteOn
 
