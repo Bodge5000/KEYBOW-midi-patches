@@ -13,11 +13,9 @@ from adafruit_midi.note_on import NoteOn
 keybow = PMK(Hardware())
 keys = keybow.keys
 midi = adafruit_midi.MIDI(midi_out=usb_midi.ports[1], out_channel=0)
+
 rgb = (255, 255, 255)
 rgb_off = (25, 25, 25)
-
-start_note = 45
-velocity = 127
 
 # Set the off lighting
 lighting_map_off = [
