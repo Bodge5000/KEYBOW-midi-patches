@@ -25,16 +25,11 @@ lighting_map_off = [
     (128, 0, 128), (128, 0, 128), (128, 0, 128), (128, 0, 128), # ch4 - yellow
 ]
 
-# Set the initial velocities
-ch1_vel = 0
-ch2_vel = 0
-ch3_vel = 0
-ch4_vel = 0
-# Setup channel notes in C 7th chord
-ch1_note = 60
-ch2_note = 64
-ch3_note = 67
-ch4_note = 70
+# Set the initial velocities and notes
+ch1_vel, ch1_note = 0, 60
+ch2_vel, ch2_note = 0, 64
+ch3_vel, ch3_note = 0, 67
+ch4_vel, ch4_note = 0, 70
 
 # Set the velocity and channel map
 key_map = [
